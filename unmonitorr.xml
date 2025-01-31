@@ -22,6 +22,6 @@
   <DonateLink/>
   <Requires/>
   <Config Name="Log Level" Target="LOG_LEVEL" Default="info" Mode="" Description="Set the logging level" Type="Variable" Display="always" Required="false" Mask="false">info</Config>
-  <Config Name="Webhook Port" Target="9080" Default="9080" Mode="tcp" Description="Set the port for webhook communication" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
-  <Config Name="Config" Target="/app/unmonitorr/data/" Default="" Mode="rw" Description="Persistent config and logs" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/unmonitorr/</Config>
+  <Config Name="Webhook Listener Port" Target="8080" Default="8080" Mode="tcp" Description="Set the port for webhook communication" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Config Name="Data" Target="/app/unmonitorr/data/" Default="" Mode="rw" Description="Persistent config and logs" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/unmonitorr/</Config>
 </Container>
