@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/dlchamp/unmonitorr/issues</Support>
   <Project/>
-  <Overview>Automatically unmonitor or remove items from Radarr and Sonarr.
+  <Overview>Automatically unmonitor or remove items from Radarr and Sonarr.</Overview>
   <Category>MediaServer:Tools</Category>
   <WebUI>http://[IP]:[PORT:8080]/setup</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/dlchamp/unraid-templates/main/unmonitorr.xml</TemplateURL>
